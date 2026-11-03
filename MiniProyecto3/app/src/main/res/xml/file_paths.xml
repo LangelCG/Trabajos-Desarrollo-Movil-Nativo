@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rutas que el FileProvider expone a la app de camara -->
+<paths>
+    <!-- Foto temporal capturada con la camara (cacheDir/camara) -->
+    <cache-path name="camara" path="camara/" />
+    <!-- Fotos definitivas copiadas al almacenamiento de la app (filesDir/fotos) -->
+    <files-path name="fotos" path="fotos/" />
+</paths>
